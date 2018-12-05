@@ -418,8 +418,8 @@ public class VisibilityTools
    public static boolean isPointVisibleForStaticMaps(List<Cluster> clusters, Point2DReadOnly observer, Point2DReadOnly targetPoint)
    {
       numberIsPointVisibleChecks++;
-      if (numberIsPointVisibleChecks % 1000000 == 0)
-         printStats();
+//      if (numberIsPointVisibleChecks % 1000000 == 0)
+//         printStats();
 
       for (Cluster cluster : clusters)
       {
